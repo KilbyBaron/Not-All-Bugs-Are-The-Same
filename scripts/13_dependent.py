@@ -47,7 +47,7 @@ project_names = ["accumulo","bookkeeper","camel","cassandra","cxf","derby","feli
 
 #Necessary pre-made data frames
 bfc_df = pd.read_csv(dir+"/intermediate_files/target_bfcs.csv")
-numstats = pd.read_csv(dir+"/intermediate_files/numstats/target_numstats.csv")
+numstats = pd.read_csv(dir+"/intermediate_files/numstats/all_numstats.csv")
 release_dates_df = pd.read_csv(dir+"/intermediate_files/release_dates/version_data.csv")
 targets = pd.read_csv(dir+"/intermediate_files/target_releases.csv")
 
@@ -58,7 +58,7 @@ release_dates_df['date'] = pd.to_datetime(release_dates_df['date'])
 bfc_df['BFC_date'] = pd.to_datetime(bfc_df['BFC_date'])
 
 #The final df starts out containing only independent variables
-final_df = pd.read_csv(dir+"/intermediate_files/all_numstats_independent.csv")
+final_df = pd.read_csv(dir+"/intermediate_files/independent.csv")
 
 
 for project_name in project_names:
@@ -125,7 +125,7 @@ for project_name in project_names:
             
        
 
-final_df.to_csv(dir+"/intermediate_files/all_numstats_final.csv", index=False)
+final_df.to_csv(dir+"/intermediate_files/final_dataset.csv", index=False)
 
 
 

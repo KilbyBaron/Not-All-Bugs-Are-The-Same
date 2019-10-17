@@ -21,7 +21,7 @@ do
     if [ $proj != "project" ] #This check is only true for the first row, ie the header
     then
         cd $proj
-        git show "$hash" --numstat >> "../../intermediate_files/numstats/target_github_commits/$proj.txt"
+        git show "$hash" --numstat >> "../../intermediate_files/numstats/all_github_commits/$proj.txt"
         cd ..
     fi
     

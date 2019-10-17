@@ -134,6 +134,6 @@ for i,r in metrics.iterrows():
 
         
 
-independent_df.to_csv(dir+"/intermediate_files/all_numstats_independent.csv", index=False)
+independent_df.to_csv(dir+"/intermediate_files/independent.csv", index=False)
 
     
