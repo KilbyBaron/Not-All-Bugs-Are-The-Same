@@ -1,0 +1,13 @@
+False-Negative & True-Positive Bugs
+===================================
+Authors: Harold Valdivia-Garcia & Mei Nagappan
+
+Description:
+We provide two QDA files for the qualitative analysis.
+
+    * qda-fn-bugs.qdp: Description, comments, patches, forum discussion for FN-bugs
+
+    * qda-tp-bugs.qdp: Description, comments, patches, forum discussion for TP-bugs
+
+
+For each bug, we categorize its Root-Cause, Impact and Affected Component

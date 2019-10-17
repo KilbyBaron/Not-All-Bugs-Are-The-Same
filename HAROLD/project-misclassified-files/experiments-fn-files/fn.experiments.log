@@ -1,0 +1,1652 @@
+INFO [2019-02-07 09:30:49] Train and Test Models in: accumulo
+INFO [2019-02-07 09:30:49] accumulo - r.train: 0  - r.test: 1 - RF
+WARN [2019-02-07 09:32:00] Time Entire-evaluation: 1.17125211556753
+INFO [2019-02-07 09:35:25] Train and Test Models in: accumulo
+INFO [2019-02-07 09:35:25] accumulo - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:35:26] incremental.predict - rf - Predict
+INFO [2019-02-07 09:35:26] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:35:26] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:35:26] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:35:26] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:35:27] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:32] Train and Test Models in: accumulo
+INFO [2019-02-07 09:36:32] accumulo - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:36:33] incremental.predict - rf - Predict
+INFO [2019-02-07 09:36:33] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:36:33] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:33] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:33] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:33] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:33] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:36:33] accumulo - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:36:34] incremental.predict - glm - Predict
+INFO [2019-02-07 09:36:34] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:36:34] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:34] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:34] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:34] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:34] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:36:34] accumulo - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:36:34] incremental.predict - nb - Predict
+INFO [2019-02-07 09:36:34] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:36:34] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:36:35] accumulo - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:36:35] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:36:35] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:35] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:36:35] accumulo - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:36:36] incremental.predict - lda - Predict
+INFO [2019-02-07 09:36:36] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:36:36] accumulo - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:36:36] incremental.predict - qda - Predict
+INFO [2019-02-07 09:36:36] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:36:36] accumulo - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:36:36] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:37] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:36:37] Time First-evaluation: 4.94386792182922
+INFO [2019-02-07 09:36:37] accumulo - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:36:38] incremental.predict - rf - Predict
+INFO [2019-02-07 09:36:38] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:36:38] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:38] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:38] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:38] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:38] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:36:38] accumulo - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:36:39] incremental.predict - glm - Predict
+INFO [2019-02-07 09:36:39] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:36:39] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:39] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:39] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:39] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:39] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:36:39] accumulo - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:36:39] incremental.predict - nb - Predict
+INFO [2019-02-07 09:36:39] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:36:39] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:36:40] accumulo - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:36:40] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:36:40] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:40] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:36:40] accumulo - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:36:41] incremental.predict - lda - Predict
+INFO [2019-02-07 09:36:41] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:36:41] accumulo - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:36:41] incremental.predict - qda - Predict
+INFO [2019-02-07 09:36:41] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:36:41] accumulo - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:41] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:42] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:36:42] Time Second-evaluation: 5.08974504470825
+INFO [2019-02-07 09:36:42] Train and Test Models in: bookkeeper
+INFO [2019-02-07 09:36:42] bookkeeper - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:36:43] incremental.predict - rf - Predict
+INFO [2019-02-07 09:36:43] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:36:43] bookkeeper - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:36:43] incremental.predict - glm - Predict
+INFO [2019-02-07 09:36:43] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:43] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:36:43] bookkeeper - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:36:44] incremental.predict - nb - Predict
+INFO [2019-02-07 09:36:44] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:36:44] bookkeeper - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:36:44] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:36:44] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:44] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:36:44] bookkeeper - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:36:45] incremental.predict - lda - Predict
+INFO [2019-02-07 09:36:45] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:36:45] bookkeeper - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:36:45] incremental.predict - qda - Predict
+INFO [2019-02-07 09:36:45] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:36:45] bookkeeper - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:45] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:36:46] Time First-evaluation: 3.33777689933777
+INFO [2019-02-07 09:36:46] bookkeeper - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:36:46] incremental.predict - rf - Predict
+INFO [2019-02-07 09:36:46] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:46] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:36:46] bookkeeper - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:36:47] incremental.predict - glm - Predict
+INFO [2019-02-07 09:36:47] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:36:47] bookkeeper - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:36:47] incremental.predict - nb - Predict
+INFO [2019-02-07 09:36:47] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:47] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:36:47] bookkeeper - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:36:48] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:36:48] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:36:48] bookkeeper - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:36:48] incremental.predict - lda - Predict
+INFO [2019-02-07 09:36:48] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:48] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:36:48] bookkeeper - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:36:49] incremental.predict - qda - Predict
+INFO [2019-02-07 09:36:49] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:36:49] bookkeeper - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:49] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:36:49] Time Second-evaluation: 3.5668580532074
+INFO [2019-02-07 09:36:49] Train and Test Models in: camel
+INFO [2019-02-07 09:36:49] camel - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:36:50] incremental.predict - rf - Predict
+INFO [2019-02-07 09:36:51] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:36:51] camel - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:36:51] incremental.predict - glm - Predict
+INFO [2019-02-07 09:36:51] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:51] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:36:51] camel - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:36:52] incremental.predict - nb - Predict
+INFO [2019-02-07 09:36:53] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:36:53] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:53] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:53] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:54] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:54] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:36:54] camel - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:36:55] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:36:55] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:36:55] camel - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:36:55] incremental.predict - lda - Predict
+INFO [2019-02-07 09:36:55] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:55] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:36:55] camel - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:36:56] incremental.predict - qda - Predict
+INFO [2019-02-07 09:36:56] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:36:56] camel - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:36:56] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:36:57] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:36:57] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:36:58] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:36:58] Time First-evaluation: 8.47415089607239
+INFO [2019-02-07 09:36:58] camel - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:36:59] incremental.predict - rf - Predict
+INFO [2019-02-07 09:36:59] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:36:59] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:36:59] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:36:59] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:36:59] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:36:59] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:36:59] camel - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:37:00] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:00] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:00] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:00] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:00] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:00] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:00] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:00] camel - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:37:00] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:01] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:01] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:02] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:02] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:03] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:03] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:03] camel - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:37:03] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:03] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:03] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:03] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:03] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:03] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:03] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:03] camel - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:37:04] incremental.predict - lda - Predict
+INFO [2019-02-07 09:37:04] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:37:04] camel - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:37:04] incremental.predict - qda - Predict
+INFO [2019-02-07 09:37:04] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:37:04] camel - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:04] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:05] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:05] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:05] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:05] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:05] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:05] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:05] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:05] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:06] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:37:06] Time Second-evaluation: 8.65792298316956
+INFO [2019-02-07 09:37:06] Train and Test Models in: cassandra
+INFO [2019-02-07 09:37:06] cassandra - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:37:07] incremental.predict - rf - Predict
+INFO [2019-02-07 09:37:07] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:37:07] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:07] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:07] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:07] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:07] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:37:07] cassandra - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:37:08] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:08] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:08] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:08] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:08] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:08] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:08] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:08] cassandra - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:37:08] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:08] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:08] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:08] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:08] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:09] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:09] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:09] cassandra - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:37:09] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:09] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:09] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:09] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:09] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:09] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:09] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:09] cassandra - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:37:10] incremental.predict - lda - Predict
+INFO [2019-02-07 09:37:10] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:37:10] cassandra - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:37:10] incremental.predict - qda - Predict
+INFO [2019-02-07 09:37:10] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:37:10] cassandra - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:10] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:37:11] Time First-evaluation: 4.31732320785522
+INFO [2019-02-07 09:37:11] cassandra - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:37:11] incremental.predict - rf - Predict
+INFO [2019-02-07 09:37:11] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:11] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:37:11] cassandra - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:37:12] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:12] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:12] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:12] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:12] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:12] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:12] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:12] cassandra - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:37:12] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:13] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:13] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:13] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:13] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:13] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:13] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:13] cassandra - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:37:14] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:14] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:14] cassandra - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:37:14] incremental.predict - lda - Predict
+INFO [2019-02-07 09:37:14] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:14] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:37:14] cassandra - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:37:15] incremental.predict - qda - Predict
+INFO [2019-02-07 09:37:15] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:37:15] cassandra - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:15] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:16] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:37:16] Time Second-evaluation: 4.9103729724884
+INFO [2019-02-07 09:37:16] Train and Test Models in: cxf
+INFO [2019-02-07 09:37:16] cxf - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:37:17] incremental.predict - rf - Predict
+INFO [2019-02-07 09:37:17] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:37:17] cxf - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:37:17] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:17] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:17] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:17] cxf - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:37:18] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:19] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:19] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:19] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:19] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:20] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:20] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:20] cxf - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:37:21] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:21] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:21] cxf - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:37:21] incremental.predict - lda - Predict
+INFO [2019-02-07 09:37:21] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:21] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:37:21] cxf - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:37:22] incremental.predict - qda - Predict
+INFO [2019-02-07 09:37:22] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:37:22] cxf - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:22] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:23] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:23] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:24] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:37:24] Time First-evaluation: 8.0134060382843
+INFO [2019-02-07 09:37:24] cxf - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:37:25] incremental.predict - rf - Predict
+INFO [2019-02-07 09:37:25] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:37:25] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:25] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:25] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:25] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:25] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:37:25] cxf - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:37:25] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:25] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:25] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:25] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:26] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:26] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:26] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:26] cxf - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:37:26] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:27] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:27] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:28] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:28] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:28] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:28] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:28] cxf - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:37:29] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:29] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:29] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:29] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:29] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:29] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:29] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:29] cxf - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:37:29] incremental.predict - lda - Predict
+INFO [2019-02-07 09:37:29] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:37:29] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:29] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:29] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:37:30] cxf - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:37:30] incremental.predict - qda - Predict
+INFO [2019-02-07 09:37:30] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:37:30] cxf - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:30] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:31] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:31] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:32] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:37:32] Time Second-evaluation: 8.34436202049255
+INFO [2019-02-07 09:37:32] Train and Test Models in: derby
+INFO [2019-02-07 09:37:32] derby - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:37:33] incremental.predict - rf - Predict
+INFO [2019-02-07 09:37:33] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:37:33] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:33] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:33] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:33] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:33] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:37:33] derby - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:37:33] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:33] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:34] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:34] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:34] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:34] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:34] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:34] derby - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:37:34] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:34] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:34] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:35] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:35] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:35] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:35] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:35] derby - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:37:36] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:36] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:36] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:36] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:36] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:36] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:36] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:36] derby - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:37:36] incremental.predict - lda - Predict
+INFO [2019-02-07 09:37:36] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:37:36] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:37:37] derby - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:37:37] incremental.predict - qda - Predict
+INFO [2019-02-07 09:37:37] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:37:37] derby - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:37] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:38] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:37:38] Time First-evaluation: 6.26231408119202
+INFO [2019-02-07 09:37:38] derby - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:37:39] incremental.predict - rf - Predict
+INFO [2019-02-07 09:37:39] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:37:39] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:39] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:39] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:39] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:39] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:37:39] derby - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:37:40] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:40] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:40] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:40] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:40] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:40] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:40] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:40] derby - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:37:40] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:41] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:41] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:42] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:42] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:42] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:42] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:42] derby - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:37:43] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:43] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:43] derby - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:37:43] incremental.predict - lda - Predict
+INFO [2019-02-07 09:37:43] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:43] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:37:43] derby - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:37:44] incremental.predict - qda - Predict
+INFO [2019-02-07 09:37:44] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:37:44] derby - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:44] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:45] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:37:45] Time Second-evaluation: 6.71651792526245
+INFO [2019-02-07 09:37:45] Train and Test Models in: felix
+INFO [2019-02-07 09:37:45] felix - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:37:46] incremental.predict - rf - Predict
+INFO [2019-02-07 09:37:46] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:37:46] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:46] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:46] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:46] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:46] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:37:46] felix - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:37:47] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:47] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:47] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:47] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:47] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:47] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:47] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:47] felix - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:37:47] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:48] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:48] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:49] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:49] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:50] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:50] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:50] felix - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:37:50] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:50] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:50] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:50] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:50] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:50] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:50] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:50] felix - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:37:51] incremental.predict - lda - Predict
+INFO [2019-02-07 09:37:51] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:37:51] felix - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:37:51] incremental.predict - qda - Predict
+INFO [2019-02-07 09:37:51] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:37:51] felix - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:51] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:52] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:52] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:37:53] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:37:53] Time First-evaluation: 8.09066486358643
+INFO [2019-02-07 09:37:53] felix - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:37:54] incremental.predict - rf - Predict
+INFO [2019-02-07 09:37:54] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:37:54] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:37:54] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:37:54] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:37:54] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:37:54] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:37:54] felix - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:37:55] incremental.predict - glm - Predict
+INFO [2019-02-07 09:37:55] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:37:55] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:37:55] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:37:55] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:37:55] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:37:55] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:37:55] felix - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:37:55] incremental.predict - nb - Predict
+INFO [2019-02-07 09:37:56] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:37:56] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:37:57] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:37:57] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:37:58] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:37:58] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:37:58] felix - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:37:59] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:37:59] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:37:59] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:37:59] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:37:59] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:37:59] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:37:59] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:37:59] felix - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:38:00] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:00] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:00] felix - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:38:00] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:00] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:00] felix - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:38:00] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:01] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:01] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:01] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:01] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:01] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:01] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:01] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:01] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:02] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:02] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:03] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:03] Time Second-evaluation: 10.0663731098175
+INFO [2019-02-07 09:38:03] Train and Test Models in: hive
+INFO [2019-02-07 09:38:03] hive - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:38:04] incremental.predict - rf - Predict
+INFO [2019-02-07 09:38:04] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:38:04] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:04] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:04] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:04] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:04] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:38:04] hive - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:38:05] incremental.predict - glm - Predict
+INFO [2019-02-07 09:38:05] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:38:05] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:05] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:05] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:05] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:05] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:38:05] hive - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:38:05] incremental.predict - nb - Predict
+INFO [2019-02-07 09:38:06] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:38:06] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:07] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:07] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:08] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:08] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:38:08] hive - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:38:09] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:38:09] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:38:09] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:09] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:09] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:09] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:09] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:38:09] hive - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:38:09] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:09] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:09] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:10] hive - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:38:10] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:10] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:10] hive - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:10] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:11] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:11] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:12] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:12] Time First-evaluation: 8.57457399368286
+INFO [2019-02-07 09:38:12] hive - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:38:13] incremental.predict - rf - Predict
+INFO [2019-02-07 09:38:13] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:38:13] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:13] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:13] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:13] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:13] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:38:13] hive - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:38:13] incremental.predict - glm - Predict
+INFO [2019-02-07 09:38:13] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:38:14] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:14] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:14] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:14] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:14] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:38:14] hive - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:38:14] incremental.predict - nb - Predict
+INFO [2019-02-07 09:38:15] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:38:15] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:16] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:16] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:16] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:16] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:38:16] hive - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:38:17] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:38:17] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:38:17] hive - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:38:17] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:17] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:17] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:17] hive - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:38:18] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:18] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:18] hive - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:18] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:19] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:19] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:20] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:20] Time Second-evaluation: 8.04461288452148
+INFO [2019-02-07 09:38:20] Train and Test Models in: openjpa
+INFO [2019-02-07 09:38:20] openjpa - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:38:20] incremental.predict - rf - Predict
+INFO [2019-02-07 09:38:21] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:38:21] openjpa - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:38:21] incremental.predict - glm - Predict
+INFO [2019-02-07 09:38:21] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:21] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:38:21] openjpa - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:38:22] incremental.predict - nb - Predict
+INFO [2019-02-07 09:38:22] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:38:22] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:22] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:22] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:23] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:23] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:38:23] openjpa - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:38:23] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:38:23] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:38:23] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:23] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:23] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:23] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:23] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:38:23] openjpa - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:38:24] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:24] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:24] openjpa - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:38:24] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:24] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:24] openjpa - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:38:24] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:25] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:26] Time First-evaluation: 5.78843402862549
+INFO [2019-02-07 09:38:26] openjpa - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:38:26] incremental.predict - rf - Predict
+INFO [2019-02-07 09:38:26] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:26] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:38:26] openjpa - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:38:27] incremental.predict - glm - Predict
+INFO [2019-02-07 09:38:27] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:38:27] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:27] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:27] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:27] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:27] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:38:27] openjpa - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:38:27] incremental.predict - nb - Predict
+INFO [2019-02-07 09:38:28] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:38:28] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:28] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:28] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:29] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:29] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:38:29] openjpa - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:38:29] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:38:29] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:38:29] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:29] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:29] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:29] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:29] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:38:29] openjpa - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:38:30] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:30] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:30] openjpa - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:38:30] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:30] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:30] openjpa - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:30] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:31] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:31] Time Second-evaluation: 5.78295993804932
+INFO [2019-02-07 09:38:31] Train and Test Models in: pig
+INFO [2019-02-07 09:38:31] pig - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:38:32] incremental.predict - rf - Predict
+INFO [2019-02-07 09:38:32] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:38:32] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:32] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:32] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:32] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:32] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:38:32] pig - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:38:33] incremental.predict - glm - Predict
+INFO [2019-02-07 09:38:33] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:38:33] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:33] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:33] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:33] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:33] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:38:33] pig - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:38:33] incremental.predict - nb - Predict
+INFO [2019-02-07 09:38:33] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:38:33] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:34] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:34] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:34] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:34] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:38:34] pig - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:38:34] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:38:34] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:38:35] pig - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:38:35] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:35] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:35] pig - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:38:35] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:35] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:35] pig - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:38:35] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:36] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:36] Time First-evaluation: 4.90967607498169
+INFO [2019-02-07 09:38:36] pig - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:38:37] incremental.predict - rf - Predict
+INFO [2019-02-07 09:38:37] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:38:37] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:37] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:37] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:37] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:37] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:38:37] pig - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:38:37] incremental.predict - glm - Predict
+INFO [2019-02-07 09:38:37] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:38:37] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:37] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:38] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:38] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:38] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:38:38] pig - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:38:38] incremental.predict - nb - Predict
+INFO [2019-02-07 09:38:38] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:38:38] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:38] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:38] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:39] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:39] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:38:39] pig - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:38:39] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:38:39] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:38:39] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:39] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:39] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:39] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:39] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:38:39] pig - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:38:40] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:40] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:40] pig - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:38:40] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:40] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:40] pig - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:40] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:41] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:41] Time Second-evaluation: 4.56721782684326
+INFO [2019-02-07 09:38:41] Train and Test Models in: wicket
+INFO [2019-02-07 09:38:41] wicket - r.train: 0  - r.test: 1 - RF
+INFO [2019-02-07 09:38:42] incremental.predict - rf - Predict
+INFO [2019-02-07 09:38:42] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:38:42] wicket - r.train: 0  - r.test: 1 - LOG
+INFO [2019-02-07 09:38:42] incremental.predict - glm - Predict
+INFO [2019-02-07 09:38:42] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:42] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:38:42] wicket - r.train: 0  - r.test: 1 - NB
+INFO [2019-02-07 09:38:43] incremental.predict - nb - Predict
+INFO [2019-02-07 09:38:43] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:38:43] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:44] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:44] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:44] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:44] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:38:44] wicket - r.train: 0  - r.test: 1 - CART
+INFO [2019-02-07 09:38:44] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:38:44] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:38:44] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:44] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:44] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:38:45] wicket - r.train: 0  - r.test: 1 - LDA
+INFO [2019-02-07 09:38:45] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:45] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:45] wicket - r.train: 0  - r.test: 1 - QDA
+INFO [2019-02-07 09:38:45] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:45] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:45] wicket - r.train: 0  - r.test: 1 - Get.traditional.Performance
+INFO [2019-02-07 09:38:45] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:46] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:47] Time First-evaluation: 5.63668894767761
+INFO [2019-02-07 09:38:47] wicket - r.train: 1  - r.test: 2 - RF
+INFO [2019-02-07 09:38:47] incremental.predict - rf - Predict
+INFO [2019-02-07 09:38:47] incremental.predict - rf - Save-prediction
+INFO [2019-02-07 09:38:47] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:47] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:47] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:47] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:47] Get.traditional.Performance - rf - Save-metrics
+INFO [2019-02-07 09:38:47] wicket - r.train: 1  - r.test: 2 - LOG
+INFO [2019-02-07 09:38:48] incremental.predict - glm - Predict
+INFO [2019-02-07 09:38:48] incremental.predict - glm - Save-prediction
+INFO [2019-02-07 09:38:48] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:48] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:48] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:48] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:48] Get.traditional.Performance - glm - Save-metrics
+INFO [2019-02-07 09:38:48] wicket - r.train: 1  - r.test: 2 - NB
+INFO [2019-02-07 09:38:48] incremental.predict - nb - Predict
+INFO [2019-02-07 09:38:49] incremental.predict - nb - Save-prediction
+INFO [2019-02-07 09:38:49] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:49] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:49] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:50] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:50] Get.traditional.Performance - nb - Save-metrics
+INFO [2019-02-07 09:38:50] wicket - r.train: 1  - r.test: 2 - CART
+INFO [2019-02-07 09:38:50] incremental.predict - rpart - Predict
+INFO [2019-02-07 09:38:50] incremental.predict - rpart - Save-prediction
+INFO [2019-02-07 09:38:50] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:50] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:50] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:50] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:50] Get.traditional.Performance - rpart - Save-metrics
+INFO [2019-02-07 09:38:50] wicket - r.train: 1  - r.test: 2 - LDA
+INFO [2019-02-07 09:38:51] incremental.predict - lda - Predict
+INFO [2019-02-07 09:38:51] incremental.predict - lda - Save-prediction
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - lda - Save-metrics
+INFO [2019-02-07 09:38:51] wicket - r.train: 1  - r.test: 2 - QDA
+INFO [2019-02-07 09:38:51] incremental.predict - qda - Predict
+INFO [2019-02-07 09:38:51] incremental.predict - qda - Save-prediction
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - qda - predict-ROC
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - qda - Save-metrics
+INFO [2019-02-07 09:38:51] wicket - r.train: 1  - r.test: 2 - Get.traditional.Performance
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - rf - predict-raw
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - rf - conf.mtx
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - rf - predict-prob
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - rf - predict-ROC
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - glm - predict-raw
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - glm - conf.mtx
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - glm - predict-prob
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - glm - predict-ROC
+INFO [2019-02-07 09:38:51] Get.traditional.Performance - nb - predict-raw
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - nb - conf.mtx
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - nb - predict-prob
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - nb - predict-ROC
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - rpart - predict-raw
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - rpart - conf.mtx
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - rpart - predict-prob
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - rpart - predict-ROC
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - lda - predict-raw
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - lda - conf.mtx
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - lda - predict-prob
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - lda - predict-ROC
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - qda - predict-raw
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - qda - conf.mtx
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - qda - predict-prob
+INFO [2019-02-07 09:38:52] Get.traditional.Performance - qda - predict-ROC
+WARN [2019-02-07 09:38:52] Time Second-evaluation: 5.96887493133545
+WARN [2019-02-07 09:39:51] Time Entire-evaluation: 3.30698291858037
+DEBUG [2019-02-07 09:44:05] Num-valid-bugs: 477

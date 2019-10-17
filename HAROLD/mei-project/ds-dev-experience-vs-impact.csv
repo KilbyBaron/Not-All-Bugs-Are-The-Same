@@ -1,0 +1,232 @@
+"issue_id","project","impact","root_cause","priority","fixing_time","total_churn","mean_experience"
+"ACCUMULO-2645","accumulo","Hang","FuncImpl","Major",157.921759259,152,116
+"ACCUMULO-2719","accumulo","Crash","MissC","Blocker",86.0278240741,4,131
+"ACCUMULO-3030","accumulo","Incorrect Functionality (Func)","MissC","Major",5.71915509259,16,131
+"ACCUMULO-1264","accumulo","Hang","FuncImpl","Blocker",7.95516203704,242,22
+"ACCUMULO-3007","accumulo","Incorrect Functionality (Func)","MissC","Blocker",15.1757407407,5,218
+"ACCUMULO-3009","accumulo","Other","FuncImpl","Minor",13.6120486111,6,131
+"ACCUMULO-2967","accumulo","Hang","FuncImpl","Critical",0.0878009259259,14,79
+"ACCUMULO-3006","accumulo","Crash","MissC","Blocker",17.2374189815,28,131
+"ACCUMULO-3003","accumulo","Crash","Typo","Blocker",0.0231597222222,4,131
+"ACCUMULO-3055","accumulo","Crash","Mem","Critical",0.365150462963,165,133.2
+"ACCUMULO-3150","accumulo","Other","MissC","Major",0.120138888889,1,145
+"BOOKKEEPER-583","bookkeeper","Other","FuncImpl","Major",17.96875,3,49
+"CAMEL-6514","camel","Crash","MissC","Minor",5.1037037037,7,1166
+"CAMEL-6548","camel","Incorrect Functionality (Func)","MissC","Minor",0.626909722222,13,1166
+"CAMEL-6404","camel","Crash","CtrlFlow","Major",2.39111111111,5,544
+"CAMEL-6602","camel","Crash","MissC","Major",5.82795138889,4,544
+"CAMEL-6610","camel","Crash","MissC","Major",1.65149305556,8,544
+"CAMEL-6385","camel","Incorrect Functionality (Func)","MissC","Critical",2.89003472222,14,544
+"CAMEL-6416","camel","Incorrect Functionality (Func)","Except","Minor",0.0364930555556,6,544
+"CASSANDRA-5285","cassandra","Crash","CtrlFlow","Minor",3.93009259259,4,150
+"CASSANDRA-5127","cassandra","Incorrect Functionality (Func)","FuncImpl","Major",0.665648148148,44,211
+"CASSANDRA-5376","cassandra","Crash","MissC","Minor",4.82967592593,25,150
+"CASSANDRA-5287","cassandra","Crash","CtrlFlow","Major",2.67247685185,2,150
+"CASSANDRA-5216","cassandra","Other","CornerC","Major",1.14416666667,9,211
+"CASSANDRA-5197","cassandra","Crash","MissC","Major",14.8594444444,3,211
+"CASSANDRA-5289","cassandra","Incorrect Functionality (Func)","CtrlFlow","Minor",9.64895833333,4,920
+"CASSANDRA-5099","cassandra","Incorrect Functionality (Func)","CtrlFlow","Major",8.76053240741,4,20
+"CASSANDRA-5368","cassandra","Crash","Except","Minor",0.0124074074074,6,211
+"CASSANDRA-5236","cassandra","Crash","FuncImpl","Trivial",18.7294907407,1,0
+"CASSANDRA-5230","cassandra","Incorrect Functionality (Func)","MissC","Major",12.7925810185,23,150
+"CASSANDRA-5106","cassandra","Crash","CtrlFlow","Major",6.88134259259,7,920
+"CASSANDRA-5189","cassandra","Incorrect Functionality (Func)","FuncImpl","Major",2.56612268519,14,150
+"CASSANDRA-5465","cassandra","Crash","MissF","Minor",0.570173611111,2,14
+"CASSANDRA-5137","cassandra","Incorrect Functionality (Func)","FuncImpl","Minor",2.0741087963,63,20
+"CASSANDRA-5144","cassandra","Incorrect Functionality (Func)","MissF","Trivial",0.0964583333333,19,11
+"CASSANDRA-5299","cassandra","Incorrect Functionality (Func)","FuncImpl","Major",0.445069444444,2,16
+"CASSANDRA-5240","cassandra","Incorrect Functionality (Func)","CtrlFlow","Major",9.14482638889,9,150
+"CASSANDRA-5122","cassandra","Incorrect Functionality (Func)","FuncImpl","Minor",0.20212962963,18,150
+"CASSANDRA-5097","cassandra","Crash","MissC","Major",0.136157407407,6,11
+"CASSANDRA-5168","cassandra","Crash","CtrlFlow","Minor",8.0040625,2,211
+"CASSANDRA-5242","cassandra","Incorrect Functionality (Func)","MissC","Minor",49.9362152778,10,11
+"CXF-3576","CXF","Other","Typo","Major",0.432523148148,4,8
+"CXF-3482","CXF","Crash","MissC","Major",4.40482638889,36,2
+"CXF-3840","CXF","Incorrect Functionality (Func)","MissF","Major",23.237974537,21,24
+"CXF-3754","CXF","Incorrect Functionality (Func)","FuncImpl","Minor",1.1871875,93,496
+"CXF-3871","CXF","Crash","Mem","Trivial",4.2974537037,2,0
+"CXF-3689","CXF","Incorrect Functionality (Func)","MissC","Minor",0.02875,9,99
+"CXF-3159","CXF","Crash","Except","Major",0.190474537037,20,99
+"CXF-3760","CXF","Incorrect Functionality (Func)","FuncImpl","Major",6.00814814815,17,99
+"CXF-3609","CXF","Crash","CtrlFlow","Major",2.73502314815,2,0
+"CXF-3489","CXF","Incorrect Functionality (Func)","Typo","Minor",0.00387731481481,2,99
+"CXF-3457","CXF","Incorrect Functionality (Func)","FuncImpl","Major",18.862650463,23,2
+"CXF-3470","CXF","Crash","MissC","Major",1.73758101852,9,99
+"CXF-3655","CXF","Incorrect Functionality (Func)","MissC","Minor",0.892083333333,5,0
+"DERBY-3000","derby","Crash","FuncImpl","Major",5.75819444444,71,103
+"DERBY-3355","derby","Crash","MissC","Major",5.69171296296,8,49
+"DERBY-1790","derby","Incorrect Functionality (Func)","MissC","Minor",349.798402778,71,103
+"FELIX-4361","felix","Crash","Con","Major",215.974490741,8,57
+"FELIX-4438","felix","Other","CtrlFlow","Major",0.000833333333333,6,420
+"FELIX-4460","felix","Crash","FuncImpl","Major",4.32452546296,90,420
+"FELIX-4220","felix","Incorrect Functionality (Func)","FuncImpl","Minor",265.093611111,4,0
+"FELIX-4472","felix","Crash","Con","Major",1.09523148148,350,187
+"FELIX-4325","felix","Crash","Con","Major",0.00293981481481,18,187
+"FELIX-4565","felix","Crash","Con","Major",38.5738657407,5,161
+"FELIX-4466","felix","Incorrect Functionality (Func)","MissC","Major",0.0195138888889,8,10
+"FELIX-4423","felix","Crash","FuncImpl","Major",5.02519675926,163,10
+"FELIX-4441","felix","Incorrect Functionality (Func)","Process","Major",0.0409027777778,2,160
+"FELIX-4642","felix","Crash","Mem","Major",0.609224537037,2,187
+"FELIX-4573","felix","Crash","MissC","Critical",0.00170138888889,6,73
+"FELIX-3714","felix","Crash","CtrlFlow","Major",414.887048611,3,187
+"FELIX-4612","felix","Incorrect Functionality (Func)","Typo","Major",0.686770833333,2,161
+"FELIX-4388","felix","Incorrect Functionality (Func)","MissC","Minor",0.0165740740741,7,160
+"FELIX-4365","felix","Crash","Except","Major",0.0136226851852,11,372
+"FELIX-4628","felix","Crash","MissC","Major",1.17484953704,3,160
+"FELIX-4383","felix","Incorrect Functionality (Func)","FuncImpl","Minor",0.00172453703704,2,160
+"FELIX-4494","felix","Incorrect Functionality (Func)","FuncImpl","Major",0.109340277778,10,372
+"FELIX-3309","felix","Crash","FuncImpl","Major",860.602164352,40,0
+"FELIX-4572","felix","Crash","Mem","Trivial",0.0028587962963,26,73
+"HIVE-7092","hive","Corrupt","FuncImpl","Major",2.90416666667,73,32
+"HIVE-7031","hive","Incorrect Functionality (Func)","Process","Major",2.11604166667,4,515
+"HIVE-2597","hive","Incorrect Functionality (Func)","FuncImpl","Major",954.802974537,64,515
+"HIVE-7023","hive","Incorrect Functionality (Func)","FuncImpl","Major",2.7958912037,62,515
+"HIVE-7346","hive","Incorrect Functionality (Func)","FuncImpl","Major",4.58221064815,24,515
+"HIVE-7147","hive","Crash","MissC","Minor",3.27082175926,2,0
+"HIVE-7001","hive","Incorrect Functionality (Func)","CtrlFlow","Major",1.02554398148,21,104
+"HIVE-7045","hive","Incorrect Functionality (Func)","FuncImpl","Blocker",56.332662037,14,515
+"HIVE-7241","hive","Incorrect Functionality (Func)","FuncImpl","Major",7.35028935185,23,515
+"HIVE-7242","hive","Incorrect Functionality (Func)","FuncImpl","Major",7.34959490741,6,515
+"HIVE-7114","hive","Crash","FuncImpl","Major",1.28924768519,4,104
+"HIVE-7235","hive","Crash","FuncImpl","Trivial",8.09295138889,54,515
+"HIVE-6967","hive","Crash","MissC","Major",57.7975115741,120,515
+"HIVE-7183","hive","Other","Typo","Minor",7.71335648148,2,515
+"HIVE-6985","hive","Incorrect Functionality (Func)","MissC","Critical",2.70436342593,23,104
+"HIVE-7237","hive","Hang","FuncImpl","Major",7.414375,19,31
+"HIVE-7220","hive","Crash","FuncImpl","Major",27.3225810185,66,31
+"HIVE-7304","hive","Incorrect Functionality (Func)","FuncImpl","Major",3.52711805556,11,515
+"HIVE-7116","hive","Incorrect Functionality (Func)","FuncImpl","Major",9.02258101852,128,104
+"HIVE-7213","hive","Incorrect Functionality (Func)","FuncImpl","Major",33.1759259259,28,515
+"OPENJPA-2146","openjpa","Crash","CtrlFlow","Major",65.7006712963,2,6
+"OPENJPA-2197","openjpa","Incorrect Functionality (Func)","MissC","Major",0.408159722222,35,8
+"OPENJPA-2187","openjpa","Incorrect Functionality (Func)","FuncImpl","Minor",2.23936342593,7,82
+"OPENJPA-2236","openjpa","Crash","Except","Major",264.965671296,13,49
+"OPENJPA-2136","openjpa","Crash","FuncImpl","Major",0.0483217592593,3,82
+"PIG-3172","pig","Incorrect Functionality (Func)","MissC","Major",38.2479050926,19,7
+"PIG-3223","pig","Crash","FuncImpl","Major",67.0844444444,39,7
+"PIG-2970","pig","Crash","FuncImpl","Minor",201.158391204,11,369
+"PIG-3241","pig","Crash","Con","Blocker",5.26241898148,99,36
+"PIG-3060","pig","Incorrect Functionality (Func)","Typo","Major",139.407731481,10,369
+"WICKET-4241","wicket","Crash","MissC","Major",4.88909722222,12,512
+"WICKET-4048","wicket","Incorrect Functionality (Func)","FuncImpl","Major",0.0959259259259,9,512
+"WICKET-4184","wicket","Hang","FuncImpl","Major",0.221365740741,68,512
+"WICKET-4054","wicket","Perf Degradation","Mem","Major",0.95443287037,3,29
+"WICKET-4063","wicket","Crash","FuncImpl","Critical",1.0696412037,9,316
+"WICKET-4082","wicket","Incorrect Functionality (Func)","Process","Minor",0.539236111111,6,512
+"WICKET-4016","wicket","Crash","FuncImpl","Major",11.215787037,62,316
+"WICKET-4259","wicket","Crash","FuncImpl","Minor",3.31199074074,49,29
+"WICKET-3982","wicket","Incorrect Functionality (Func)","MissC","Major",21.5591087963,2,29
+"WICKET-4278","wicket","Perf Degradation","FuncImpl","Major",10.9659953704,21,2
+"WICKET-4256","wicket","Incorrect Functionality (Func)","FuncImpl","Major",0.00916666666667,15,446.666666667
+"WICKET-4266","wicket","Crash","Process","Major",0.711585648148,14,316
+"WICKET-4134","wicket","Crash","Mem","Critical",3.10648148148,7,512
+"WICKET-4213","wicket","Incorrect Functionality (Func)","FuncImpl","Major",14.9075578704,2,316
+"ACCUMULO-1628","accumulo","Crash","FuncImpl","Blocker",476.004027778,123,218
+"ACCUMULO-2854","accumulo","Crash","Except","Major",15.1853935185,150,0
+"ACCUMULO-2862","accumulo","Incorrect Functionality (Func)","Except","Major",3.88287037037,8,131
+"ACCUMULO-2824","accumulo","Crash","Except","Minor",26.1566435185,6,0
+"ACCUMULO-3025","accumulo","Crash","Mem","Major",8.02612268519,6,131
+"BOOKKEEPER-569","bookkeeper","Perf Degradation","Typo","Blocker",2.91947916667,2,39
+"CAMEL-6544","camel","Incorrect Functionality (Func)","CtrlFlow","Minor",4.2394212963,3,544
+"CAMEL-6352","camel","Incorrect Functionality (Func)","MissC","Minor",0.00927083333333,76,1166
+"CAMEL-6341","camel","Hang","CornerC","Minor",9.90327546296,52,855
+"CAMEL-6413","camel","Other","Con","Minor",0.128784722222,175,1166
+"CAMEL-6375","camel","Incorrect Functionality (Func)","FuncImpl","Major",0.198888888889,52,855
+"CAMEL-6078","camel","Hang","FuncImpl","Minor",98.9631944444,20,1166
+"CAMEL-6504","camel","Other","Mem","Minor",0.726574074074,4,544
+"CAMEL-6609","camel","Incorrect Functionality (Func)","FuncImpl","Major",13.1432060185,49,544
+"CASSANDRA-4021","cassandra","Crash","FuncImpl","Minor",368.245625,4,920
+"CASSANDRA-5182","cassandra","Incorrect Functionality (Func)","CornerC","Major",40.7603703704,12,20
+"CASSANDRA-5292","cassandra","Other","FuncImpl","Major",0.896041666667,7,150
+"CASSANDRA-5410","cassandra","Crash","FuncImpl","Minor",3.32143518519,21,0
+"CASSANDRA-5248","cassandra","Incorrect Functionality (Func)","Typo","Major",2.31071759259,2,150
+"CASSANDRA-5208","cassandra","Crash","FuncImpl","Trivial",0.0121296296296,8,11
+"CASSANDRA-4916","cassandra","Crash","FuncImpl","Minor",63.2866666667,107,14
+"CASSANDRA-5386","cassandra","Incorrect Functionality (Func)","FuncImpl","Major",0.825925925926,49,150
+"CASSANDRA-5105","cassandra","Crash","CornerC","Minor",41.9573726852,1,20
+"CXF-3678","CXF","Crash","Mem","Major",0.0144328703704,13,57
+"CXF-3870","CXF","Incorrect Functionality (Func)","MissC","Major",40.1147569444,33,496
+"CXF-3584","CXF","Incorrect Functionality (Func)","MissC","Minor",0.496469907407,17,60
+"CXF-3496","CXF","Crash","Typo","Major",0.256597222222,27,8
+"CXF-3597","CXF","Incorrect Functionality (Func)","MissC","Major",0.921284722222,2,0
+"CXF-3614","CXF","Other","Mem","Major",0.242858796296,2,57
+"CXF-3773","CXF","Crash","FuncImpl","Major",1.35709490741,1,0
+"CXF-3742","CXF","Other","FuncImpl","Major",17.5644675926,14,496
+"CXF-3594","CXF","Incorrect Functionality (Func)","CtrlFlow","Major",1.21490740741,9,0
+"CXF-3499","CXF","Crash","CtrlFlow","Minor",2.40690972222,4,60
+"CXF-3480","CXF","Crash","CtrlFlow","Minor",3.53040509259,6,60
+"CXF-3862","CXF","Incorrect Functionality (Func)","FuncImpl","Major",6.48840277778,2,24
+"CXF-3684","CXF","Crash","MissC","Critical",0.152858796296,66,496
+"CXF-3681","CXF","Hang","FuncImpl","Major",8.44582175926,21,99
+"CXF-3801","CXF","Crash","Con","Major",16.7703935185,25,496
+"CXF-3803","CXF","Incorrect Functionality (Func)","FuncImpl","Major",0.0687152777778,23,496
+"CXF-3749","CXF","Other","MissC","Minor",0.282372685185,28,496
+"CXF-3785","CXF","Incorrect Functionality (Func)","FuncImpl","Major",0.0523263888889,21,496
+"CXF-3707","CXF","Incorrect Functionality (Func)","CornerC","Major",0.019525462963,2,57
+"CXF-3542","CXF","Perf Degradation","FuncImpl","Minor",0.18337962963,50,496
+"CXF-3486","CXF","Crash","MissF","Major",0.811238425926,5,496
+"CXF-3560","CXF","Crash","Mem","Major",6.89636574074,10,496
+"CXF-3618","CXF","Perf Degradation","FuncImpl","Major",0.00415509259259,22,8
+"CXF-3539","CXF","Crash","CornerC","Major",5.90427083333,4,496
+"DERBY-3194","derby","Incorrect Functionality (Func)","Typo","Trivial",9.99133101852,5,2
+"DERBY-3215","derby","Crash","Except","Minor",2.0484837963,119,2
+"DERBY-3075","derby","Incorrect Functionality (Func)","Except","Major",3.69731481481,15,103
+"DERBY-3221","derby","Crash","FuncImpl","Major",57.5636805556,66,0
+"DERBY-3288","derby","Incorrect Functionality (Func)","FuncImpl","Major",52.2157291667,648,21
+"DERBY-3356","derby","Crash","FuncImpl","Major",8.07516203704,203,0
+"DERBY-2733","derby","Incorrect Functionality (Func)","FuncImpl","Major",225.689027778,6,44
+"DERBY-3093","derby","Crash","FuncImpl","Major",27.16625,31,140
+"DERBY-3138","derby","Crash","Typo","Major",3.0775,2,72
+"DERBY-2815","derby","Crash","CtrlFlow","Minor",208.630231481,6,0
+"DERBY-3238","derby","Crash","FuncImpl","Major",5.69042824074,23,103
+"FELIX-4184","felix","Crash","Typo","Major",113.355150463,2,57
+"FELIX-4444","felix","Incorrect Functionality (Func)","Except","Major",0.00946759259259,17,160
+"FELIX-4603","felix","Incorrect Functionality (Func)","MissC","Major",0.0301967592593,46,160
+"FELIX-4451","felix","Incorrect Functionality (Func)","FuncImpl","Major",0.00564814814815,17,160
+"FELIX-4335","felix","Incorrect Functionality (Func)","MissF","Major",0.00167824074074,15,161
+"FELIX-4484","felix","Incorrect Functionality (Func)","FuncImpl","Major",1.84179398148,23,0
+"FELIX-4616","felix","Crash","MissC","Major",0.803321759259,10,160
+"FELIX-4469","felix","Crash","CtrlFlow","Major",31.5268055556,10,179
+"FELIX-4613","felix","Incorrect Functionality (Func)","FuncImpl","Minor",0.897638888889,4,160
+"FELIX-3054","felix","Incorrect Functionality (Func)","MissC","Major",932.740821759,18,10
+"FELIX-4627","felix","Perf Degradation","Mem","Minor",0.595115740741,12,160
+"FELIX-4447","felix","Crash","Typo","Major",152.450798611,2,179
+"HIVE-6986","hive","Crash","CtrlFlow","Trivial",23.5650115741,3,515
+"HIVE-6989","hive","Crash","FuncImpl","Major",13.6895833333,16,515
+"HIVE-6957","hive","Other","MissC","Major",6.03131944444,71,104
+"HIVE-7146","hive","Crash","MissC","Minor",2.85927083333,5,515
+"HIVE-7226","hive","Crash","MissC","Major",1.03650462963,1,515
+"HIVE-7314","hive","Incorrect Functionality (Func)","FuncImpl","Major",3.78701388889,9,31
+"HIVE-7356","hive","Other","MissC","Major",1.76805555556,10,515
+"HIVE-7130","hive","Crash","MissC","Major",2.21806712963,18,104
+"HIVE-6828","hive","Incorrect Functionality (Func)","FuncImpl","Major",29.7519097222,37,166
+"HIVE-7200","hive","Incorrect Functionality (Func)","CtrlFlow","Minor",6.91515046296,21,32
+"HIVE-7035","hive","Incorrect Functionality (Func)","FuncImpl","Major",4.73013888889,40,104
+"HIVE-6637","hive","Crash","FuncImpl","Major",124.213611111,44,32
+"HIVE-7257","hive","Crash","MissC","Major",14.0212152778,7,0
+"HIVE-6984","hive","Crash","Mem","Major",2.9990625,9,32
+"OPENJPA-2133","openjpa","Crash","FuncImpl","Major",81.9414351852,19,6
+"OPENJPA-2191","openjpa","Crash","Mem","Trivial",0.12712962963,3,82
+"OPENJPA-2170","openjpa","Incorrect Functionality (Func)","Except","Minor",0.986203703704,8,68
+"OPENJPA-2118","openjpa","Crash","CtrlFlow","Major",121.149201389,2,4
+"PIG-3081","pig","Incorrect Functionality (Func)","FuncImpl","Major",89.6910416667,16,7
+"PIG-3316","pig","Incorrect Functionality (Func)","Process","Major",2.07295138889,5,18
+"PIG-3270","pig","Crash","CtrlFlow","Major",2.17369212963,3,369
+"PIG-3097","pig","Incorrect Functionality (Func)","Typo","Major",136.667013889,47,369
+"PIG-3305","pig","Hang","MissC","Critical",1.15238425926,18,369
+"PIG-3252","pig","Incorrect Functionality (Func)","FuncImpl","Major",0.697789351852,1,33
+"PIG-3110","pig","Corrupt","MissC","Major",79.4372916667,37,369
+"WICKET-4217","wicket","Crash","CornerC","Major",0.00320601851852,5,2
+"WICKET-4163","wicket","Incorrect Functionality (Func)","FuncImpl","Major",0.00275462962963,3,316
+"WICKET-4198","wicket","Crash","FuncImpl","Major",0.000636574074074,3,512
+"WICKET-4099","wicket","Incorrect Functionality (Func)","FuncImpl","Minor",2.84798611111,38,316
+"WICKET-4164","wicket","Crash","Mem","Major",1.27854166667,22,316
+"WICKET-4300","wicket","Crash","MissC","Major",0.886122685185,2,316
+"WICKET-4175","wicket","Crash","FuncImpl","Trivial",0.0250694444444,2,316
+"WICKET-4264","wicket","Crash","FuncImpl","Major",1.80543981481,12,316
+"WICKET-4203","wicket","Crash","MissC","Major",1.48181712963,30,316
+"WICKET-4258","wicket","Crash","FuncImpl","Minor",25.56375,36,2
+"WICKET-4030","wicket","Incorrect Functionality (Func)","FuncImpl","Minor",7.44056712963,17,512
+"WICKET-4301","wicket","Crash","MissC","Minor",0.836851851852,46,316
+"WICKET-4305","wicket","Incorrect Functionality (Func)","FuncImpl","Major",18.949212963,27,316
+"WICKET-4071","wicket","Incorrect Functionality (Func)","FuncImpl","Minor",49.1431134259,9,414
