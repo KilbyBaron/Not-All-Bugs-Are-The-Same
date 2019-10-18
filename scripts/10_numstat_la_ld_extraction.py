@@ -7,6 +7,18 @@ import datetime
 import math
 
 
+
+"""
+
+This script parses through all of the text output created by numstat.sh. 
+The numstat output contains all of the lines added and deleted from every commit.
+The output of this script is all_numstats.csv, which contains all of the churn data
+that will be used to calculate the independent variable "churn" and the dependent variable
+"bug fix size".
+
+"""
+
+
 #Working directory
 dir = os.getcwd()+"/../intermediate_files/"
 os.chdir(dir)

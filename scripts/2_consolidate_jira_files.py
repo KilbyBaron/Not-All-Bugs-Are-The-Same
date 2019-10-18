@@ -4,6 +4,17 @@ import numpy as np
 import re
 
 
+
+"""
+
+This script combines all of the JIRA issue csvs into a singluar CSV called jira_issues.csv
+
+
+"""
+
+
+
+
 #Working directory
 dir = os.getcwd()+"/.."
 os.chdir(dir)

@@ -16,7 +16,7 @@ Output: A CSV called version_data.csv
 NOTE: Felix is not included in this script because it has different version for every component. In the end I 
 got felix versions manually by counting the number of commits for each component, then
 counting the number of commits for each version of the top 2 components
-(declarative services (scr) and Framework), then I went online and manually found the 
+(declarative services (scr) and Framework), then I went online and found the 
 dates for the most popular versions of the most popular component (SCR 1.4, 1.6, 1.8)
 
 """

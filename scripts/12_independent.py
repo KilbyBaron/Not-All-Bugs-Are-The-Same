@@ -9,6 +9,10 @@ from datetime import time
 
 """
 
+This script creates a dataframe that contains a row for every target file
+that will be in the final dataset. All of the independent variables are 
+calculated and added to the dataframe. The output is independent.csv, which will
+be passed to dependent.py to add the dependent variables to create the final dataset.
 
 """
 

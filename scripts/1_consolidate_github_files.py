@@ -4,8 +4,10 @@ import numpy as np
 import re
 
 """
+
 This scripts takes all of the CSVs in the github_commits directory and combines
- them into one CSV called github_commits.csv in the intermediate_files directory
+them into one CSV called github_commits.csv in the intermediate_files directory.
+
 """
 
 #Working directory

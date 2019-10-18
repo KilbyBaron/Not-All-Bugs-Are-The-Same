@@ -7,6 +7,17 @@ import datetime
 import math
 
 
+"""
+
+This script parses thorugh all of the output from UNDERSTAND (by scitools), which contains
+the LOC and CC data for each target file. The output is all_metrics.csv which 
+contains all of the metric data that will be used as independent variables.
+The output will then be passed to independent.py to create a dataframe containing
+all independent variables.
+
+"""
+
+
 #Working directory
 dir = os.getcwd()+"/.."
 os.chdir(dir)
@@ -48,7 +59,7 @@ for key,df in metric_dfs.items():
                 },ignore_index=True)
 
 
-complete_metric_df.to_csv(dir+"/intermediate_files/cc_loc/all_metrics2.csv", index = False)
+complete_metric_df.to_csv(dir+"/intermediate_files/cc_loc/all_metrics.csv", index = False)
 
 
     

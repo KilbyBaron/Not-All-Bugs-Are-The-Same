@@ -4,6 +4,22 @@ import numpy as np
 import re
 
 
+
+"""
+
+This script filters down the bug fixing commits to only include the target versions.
+
+***
+This file should really be updated to work from target_release_commits.py because 
+its currently pretty redudant. It should just be able to output the intersection
+between target_commits.csv and bugfixingcommits.csv.
+***
+
+
+"""
+
+
+
 def get_target_versions():
     target_versions = dict()
     targets = pd.read_csv(dir+"intermediate_files/target_releases.csv")

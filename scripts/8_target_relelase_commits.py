@@ -4,7 +4,12 @@ import numpy as np
 import time
 
 
+""" 
 
+This script filters down the github commits to only include commits within the 
+target releases for each project. The output is target_commits.csv.
+
+"""
 
 
 #Guess release based on commit time
@@ -67,7 +72,6 @@ for i,r in github_commits.iterrows():
         release, pre = get_release(version_data, committerTime, project)
             
         #If release is found, determine major, minor, and churn
-        #la, ld, and churn are only collected for PRE RELEASE commits!
         if not pd.isnull(release):
             major = int(release.split('.')[0])
             minor = int(release.split(".")[1])

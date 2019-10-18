@@ -7,6 +7,16 @@ import datetime
 import math
 
 
+
+"""
+
+This script locates the 3 consecutive minor releases of each project
+with the most post release bug fixing commits.
+
+"""
+
+
+
 def count_pre_post():
     version_data = pd.read_csv(dir+"/intermediate_files/release_dates/version_data.csv")
     version_data['date'] = pd.to_datetime(version_data['date'])
@@ -126,7 +136,7 @@ for project in projects:
             v = version_data.loc[(version_data['major'] == target['major']) & (version_data["minor"] == target['minor']+x)].iloc[0]['release']                     
             targets = targets.append({'project':project,'release':v,'major':target['major'],'minor':target['minor']+x, 'pre':p_row['pre'], 'post':p_row['post']},ignore_index=True)
 
-targets.to_csv(dir+"/intermediate_files/target_releases2.csv", index=False)
+targets.to_csv(dir+"/intermediate_files/target_releases.csv", index=False)
 
 
 

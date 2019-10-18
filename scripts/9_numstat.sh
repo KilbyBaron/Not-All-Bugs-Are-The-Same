@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#This script executes the "git show --numstat" command for every hash target_bfcs.csv
+#This script executes the "git show --numstat" command for every hash in the github commits
 #REQUIREMENTS: 
 #   -each project must be cloned into this location: cloned_repos/$project
 #   -This script must be run from the scripts directory
@@ -21,7 +21,7 @@ do
     if [ $proj != "project" ] #This check is only true for the first row, ie the header
     then
         cd $proj
-        git show "$hash" --numstat >> "../../intermediate_files/numstats/all_github_commits/$proj.txt"
+        git show "$hash" --numstat >> "../../intermediate_files/numstats/target_github_commits/$proj.txt"
         cd ..
     fi
     

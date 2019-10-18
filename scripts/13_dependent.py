@@ -8,6 +8,9 @@ from datetime import time
 
 """
 
+This script takes the output from independent.py (independent.csv), which 
+contains all of the independent variables for each file, and adds in the 
+dependent variables. The output is final_dataset.csv, the complete dataset.
 
 """
 
@@ -19,23 +22,6 @@ def short_path(path):
         if len(split) >= abs(x):
             sp = sp+"/"+split[x]
     return sp
-
-
-def post_release_issue(release_dates, row):
-    commit_date = row['BFC_date']
-    major = row['major']
-    minor = row['minor']
-    #commit_date = pd.to_datetime(date,unit='s')
-
-    v_row = release_dates.loc[(release_dates['major'] == major) & (release_dates['minor'] == minor)]
-
-    post_start = v_row['date'].iloc[0]
-    post_end = v_row['post'].iloc[0]
-
-    if commit_date > post_start and commit_date < post_end:
-        return 1
-    return 0
-
 
 
 #Working directory
@@ -74,24 +60,22 @@ for project_name in project_names:
     #Get version info
     target_versions = sorted(targets.loc[targets['project'] == project_name]['minor'].tolist())
     
-    counter = 0
+    counter = 1
 
     for index, row in project_bfcs.iterrows():
         
-        print(project_name,":  ",counter,"/",project_bfcs.shape[0], end="\r")
+        print(project_name,(10-len(project_name))*" ",":  ",counter,"/",project_bfcs.shape[0], end="\r")
         counter += 1
         
         #get numstat subset
         commit_numstats = project_numstats.loc[project_numstats['hash'] == row['BFC_id']]
-
-        #determine if commit is pre-release
-        pre_post = post_release_issue(project_releases, row)
           
-        
         #If the commit happened in the post release period, add the dependent variables to the final dataframe
-        if pre_post == 1:
-            for i,r in commit_numstats.iterrows():
-                
+
+        for i,r in commit_numstats.iterrows():
+        
+            if r['pre'] == 0:
+            
                 sp = short_path(r['filepath'])
                 
                 
@@ -118,7 +102,7 @@ for project_name in project_names:
                 final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'num_bugs'] = final_row['num_bugs'] + newbug
                 final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'release_id'] = target_versions.index(int(row['minor']))
                 
-                
+                    
                 
                 
     print("")
