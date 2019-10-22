@@ -10,7 +10,7 @@ library(e1071)
 library(Hmisc)
 
 #Read in CSV
-df <- read.csv("/home/kjbaron/Documents/NABATS/intermediate_files/all_numstats_final.csv", header = TRUE)
+df <- read.csv("/home/kjbaron/Documents/NABATS/intermediate_files/final_dataset.csv", header = TRUE)
 #df <- filter(df, num_bugs > 0)
 #df <- na.omit(df) #remove rows with na values
 
@@ -60,7 +60,7 @@ print(sp)
 # (MC -5) Fit regression model
 ################################################################################
 #Create a matrix to fill with R^2 values
-r2_results <- matrix(ncol=4, nrow=12)
+r2_results <- matrix(ncol=5, nrow=12)
 r2_results[1,] <- c("Project", "Y #Bugs", "Y ChgLines", "Y Exp", "Y Priority")
 i <- 2
 
@@ -74,8 +74,7 @@ for (current_project in c("accumulo","bookkeeper","camel","cassandra","cxf","der
   p_df <- filter(df, project == current_project)
   p_df[c("LOC","CC","churn","exp","bfs","num_bugs","priority")] <- lapply(p_df[c("LOC","CC","churn","exp","bfs","num_bugs","priority")], function(x) c(scale(x, center= min(x), scale=diff(range(x))))) 
   
-  write.csv(p_df, file = paste(current_project, "_standardized.csv", sep=""))
- 
+
   #RMS package requires a data distribution when building a model
   print(dim(p_df[,c("exp",ind_vars)]))
   dd_exp <- datadist(p_df[,c("exp",ind_vars)])
@@ -113,6 +112,9 @@ for (current_project in c("accumulo","bookkeeper","camel","cassandra","cxf","der
 }
 
 
+write.csv(r2_results, file = "/home/kjbaron/Documents/NABATS/intermediate_files/r2_results.csv",row.names=FALSE,na="")
+
+
 #  The code below is most the same as for Table 5, but rela=TRUE in the relimp calculation 
 #  -- just separated the code by table to keep it easy to read
 #  --------------------------------------------------------------------------------------------------------------------------
@@ -121,7 +123,7 @@ for (current_project in c("accumulo","bookkeeper","camel","cassandra","cxf","der
 
 
 #Create a matrix to fill with values
-t6_results <- matrix(ncol=5, nrow=34)
+t6_results <- matrix(ncol=6, nrow=34)
 t6_results[1,] <- c("Project", "Features", "Y #Bugs", "Y ChgLines", "Y Exp", "Y Priority")
 i <- 2
 
@@ -161,11 +163,6 @@ for (current_project in c("accumulo","bookkeeper","camel","cassandra","cxf","der
   lmg_bfs <- calc.relimp(m_bfs, type="lmg", rela=TRUE)@lmg
   lmg_bugs <- calc.relimp(m_bugs, type="lmg", rela=TRUE)@lmg
   lmg_priority <- calc.relimp(m_priority, type="lmg", rela=TRUE)@lmg
-  
-  
-
-  
-
 
   
   print(3)
@@ -180,4 +177,4 @@ for (current_project in c("accumulo","bookkeeper","camel","cassandra","cxf","der
   i <- i+3
 }
 
-
+write.csv(t6_results, file = "/home/kjbaron/Documents/NABATS/intermediate_files/t6_results.csv",row.names=FALSE,na="")
