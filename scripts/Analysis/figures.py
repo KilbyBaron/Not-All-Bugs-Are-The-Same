@@ -93,21 +93,21 @@ def figure1():
         exp.append(exp_list)
         cost.append(cost_list)
 
-    plt.figure()
+    plt.figure(figsize=(11, 3))
     plt.boxplot(bfs)
     plt.yscale('log')
     plt.xticks(range(1,12), projects)
     plt.ylabel("Bug Fix Size")
     plt.savefig(dir+"Figures&Tables/Figure1/BFS_Boxplots.png")
 
-    plt.figure()
+    plt.figure(figsize=(11, 3))
     plt.boxplot(exp)
     plt.yscale('symlog')
     plt.xticks(range(1,12), projects)
     plt.ylabel("Dev Experience")
     plt.savefig(dir+"Figures&Tables/Figure1/EXP_Boxplots.png")
 
-    plt.figure()
+    plt.figure(figsize=(11, 3))
     plt.boxplot(cost)
     plt.yscale('symlog')
     plt.xticks(range(1,12), projects)
@@ -182,7 +182,7 @@ def figure2():
         bar_chart(costs, "Cost", "#_Bugs", project)
 
 
-figure2()
+figure1()
 
 
 

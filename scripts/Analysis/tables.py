@@ -25,6 +25,196 @@ dir = os.getcwd()+"/../../"
 os.chdir(dir)
 
 
+#NOTE: table 9 data is computed by running t9_correlation_analysis.r which outputs the crrelation data to t9.csv
+def table_9():
+    #Accumulo	&	0.27	&	0.77	&	0.51	&   	-0.01	&	0.06	&	0.19    &   	-0.01	&	0.06	&	0.19	 	\\	\hline
+
+	df = pd.read_csv(dir+"intermediate_files/t9.csv")
+
+	#Create tex file for table 9
+	table9_tex = ""
+
+	with open("scripts/Analysis/blank_tables/table9.txt", "r") as f:
+		for line in f.readlines():
+
+			if "insert_data" not in line:
+				table9_tex += line
+
+			else:
+				for i,r in df.iterrows():
+					if r['V1'] in projects:
+					
+						if r['V1'] == 'hive':
+							r['V4'] = r['V3']
+							r['V7'] = r['V6']
+							r['V10'] = r['V9']
+							
+							r['V3'] = 0 
+							r['V6'] = 0 
+							r['V9'] = 0 
+					
+					
+						new_line = r['V1'].capitalize()
+
+						for i in range(2,11):
+							new_line += "\t&\t"+str(round(float(r['V'+str(i)]),2))
+						new_line += "\t\\\\ \\hline\n"
+
+						table9_tex += new_line
+
+
+	f = open('Figures&Tables/tables_latex/table9.tex','w')
+	f.write(table9_tex)
+	f.close()	
+
+	
+	
+
+
+
+def table_8():
+	
+	df = pd.read_csv(dir+"intermediate_files/final_dataset.csv")
+	
+	
+	
+	#Create dataframe with all required information
+	t8 = pd.DataFrame(columns=['project','minor','independent', 'rank'])
+	for p in projects:
+		p_df = df.loc[df['project']==p]
+		releases = set(p_df['minor'])
+		for r in releases:
+			r_df = p_df.loc[p_df['minor'] == r]
+			
+			rank_numbugs = r_df.sort_values(by=['num_bugs'],ascending=False).head(20)['shortpath'].tolist()
+			rank_bfs = r_df.sort_values(by=['bfs'],ascending=False).head(20)['shortpath'].tolist()
+			rank_exp = r_df.sort_values(by=['exp'],ascending=False).head(20)['shortpath'].tolist()
+			
+			bfs_inter = 20-len(set(rank_numbugs) & set(rank_bfs))
+			exp_inter = 20-len(set(rank_numbugs) & set(rank_exp))
+			
+			t8 = t8.append({'project':p, 'minor':r,'independent':'bfs','rank':bfs_inter},ignore_index=True)
+			t8 = t8.append({'project':p, 'minor':r,'independent':'exp','rank':exp_inter},ignore_index=True)
+			
+			
+			
+	#Create tex file for table 8
+	table8_tex = ""
+	with open("scripts/Analysis/blank_tables/table8.txt", "r") as f:
+			for line in f.readlines():
+				if "insert_data" not in line:
+					table8_tex += line
+
+				else:
+					for p in projects:
+						minors = sorted(set(t8.loc[t8['project']==p]['minor']))
+						
+						#Hive doesnt have any files in R2 so I put in "nan" instead
+						if p == 'hive':
+							bfs_r1 = t8.loc[(t8['project']==p) & (t8['independent'] == 'bfs') & (t8['minor']==minors[0])].iloc[0]['rank']
+							bfs_r2 = "nan"
+							bfs_r3 = t8.loc[(t8['project']==p) & (t8['independent'] == 'bfs') & (t8['minor']==minors[1])].iloc[0]['rank']
+							exp_r1 = t8.loc[(t8['project']==p) & (t8['independent'] == 'exp') & (t8['minor']==minors[0])].iloc[0]['rank']
+							exp_r2 = "nan"
+							exp_r3 = t8.loc[(t8['project']==p) & (t8['independent'] == 'exp') & (t8['minor']==minors[1])].iloc[0]['rank']	
+							
+						else:
+							bfs_r1 = t8.loc[(t8['project']==p) & (t8['independent'] == 'bfs') & (t8['minor']==minors[0])].iloc[0]['rank']
+							bfs_r2 = t8.loc[(t8['project']==p) & (t8['independent'] == 'bfs') & (t8['minor']==minors[1])].iloc[0]['rank']
+							bfs_r3 = t8.loc[(t8['project']==p) & (t8['independent'] == 'bfs') & (t8['minor']==minors[2])].iloc[0]['rank']
+							exp_r1 = t8.loc[(t8['project']==p) & (t8['independent'] == 'exp') & (t8['minor']==minors[0])].iloc[0]['rank']
+							exp_r2 = t8.loc[(t8['project']==p) & (t8['independent'] == 'exp') & (t8['minor']==minors[1])].iloc[0]['rank']
+							exp_r3 = t8.loc[(t8['project']==p) & (t8['independent'] == 'exp') & (t8['minor']==minors[2])].iloc[0]['rank']		
+							
+						table8_tex += p.capitalize()+"\t&\t"+str(bfs_r1)+"\t&\t"+str(bfs_r2)+"\t&\t"+str(bfs_r3)+"\t&\t"+str(exp_r1)+"\t&\t"+str(exp_r2)+"\t&\t"+str(exp_r3)+"\t\\\\\\hline\n"					
+
+
+
+
+
+	f = open('Figures&Tables/tables_latex/table8.tex','w')
+	f.write(table8_tex)
+	f.close()	
+
+
+
+
+
+
+
+def table_7():
+
+
+	df = pd.read_csv(dir+"intermediate_files/final_dataset.csv")
+	df = df.loc[(df['project']=='accumulo') & (df['minor']==6)] 
+	
+	
+	rank_numbugs = df.sort_values(by=['num_bugs'],ascending=False).head(5).reset_index()
+	rank_exp = df.sort_values(by=['exp'],ascending=False).head(5).reset_index()
+	
+	similar_files = set(rank_numbugs['shortpath'].tolist()) & set(rank_exp['shortpath'].tolist())
+	
+	alphabet = ['A','B','C','D','E','F','G','H','I','J']
+	latex_colors = ['airforceblue!50','carmine!30','applegreen','arylideyellow','brightube']
+	latex_colors = ['red', 'green', 'cyan', 'magenta', 'yellow']
+	
+	#Set letters for numbug files
+	for i in range(5):
+		rank_numbugs.at[i,'letter'] = alphabet[i]
+		rank_numbugs.at[i,'color'] = latex_colors[i]
+	
+	#Set letters for exp files, where letters match for same file in numbugs
+	for i in range(5):
+		
+		#If there's a file match, get the letter from the macthing row in numbugs
+		if rank_exp.at[i,'shortpath'] in similar_files:
+			rank_exp.at[i,'letter'] = rank_numbugs.loc[rank_numbugs['shortpath']==rank_exp.at[i,'shortpath']].iloc[0]['letter']
+			rank_exp.at[i,'color'] = rank_numbugs.loc[rank_numbugs['shortpath']==rank_exp.at[i,'shortpath']].iloc[0]['color']
+	
+		else:
+			rank_exp.at[i,'letter'] = alphabet[5+i]
+			
+
+	
+	#$f_{E}$	&	5	&	$f_{D}$	&	 200 \\
+	
+	
+	
+	#Read in a latex table and fill in the new statistics
+	table7_tex = ""
+
+	with open("scripts/Analysis/blank_tables/table7.txt", "r") as f:
+		for line in f.readlines():
+			if "insert_data" not in line:
+				table7_tex += line
+				
+			else:
+
+				for i in range(5):
+				
+					if rank_numbugs.at[i,'shortpath'] in similar_files:
+						new_line = "\\cellcolor{"+rank_numbugs.at[i,'color']+"}$f_{"+rank_numbugs.at[i,'letter']+"}$\t&\t"+"\\cellcolor{"+rank_numbugs.at[i,'color']+"}"+str(int(rank_numbugs.at[i,'num_bugs']))+"\t&\t"
+					else:
+						new_line = "$f_{"+rank_numbugs.at[i,'letter']+"}$\t&\t"+str(int(rank_numbugs.at[i,'num_bugs']))+"\t&\t"
+						
+					if rank_exp.at[i,'shortpath'] in similar_files:
+						new_line += "\\cellcolor{"+rank_exp.at[i,'color']+"}$f_{"+rank_exp.at[i,'letter']+"}$\t&\t"+"\\cellcolor{"+rank_exp.at[i,'color']+"}"+str(int(rank_exp.at[i,'exp']))+"\t\\\\\n"
+					else:
+						new_line += "$f_{"+rank_exp.at[i,'letter']+"}$\t&\t"+str(int(rank_exp.at[i,'exp']))+"\t\\\\\n"
+
+
+					table7_tex += new_line
+				table7_tex += "\\hline"	
+					
+					
+
+			   
+	f = open('Figures&Tables/tables_latex/table7.tex','w')
+	f.write(table7_tex)
+	f.close()	
+	
+	
+
 
 
 def table_6():
@@ -40,8 +230,6 @@ def table_6():
 				table6_tex += line
 
 			else:
-				print(1)
-				
 				for i,r in df.iterrows():
 					if r['V1'] in projects:
 
@@ -66,9 +254,9 @@ def table_6():
 						
 						table6_tex += new_line+"\n"
 
-		table6_tex += "\\hline"
 
-	f = open('Figures&Tables/tables_latex/table6.txt','w')
+
+	f = open('Figures&Tables/tables_latex/table6.tex','w')
 	f.write(table6_tex)
 	f.close()	
 
@@ -110,7 +298,7 @@ def table_5():
 					
 
 			       
-    f = open('Figures&Tables/tables_latex/table5.txt','w')
+    f = open('Figures&Tables/tables_latex/table5.tex','w')
     f.write(table5_tex)
     f.close()	
 
@@ -189,7 +377,7 @@ def table_4():
 
 			       
     print(table4_tex)
-    f = open('Figures&Tables/tables_latex/table4.txt','w')
+    f = open('Figures&Tables/tables_latex/table4.tex','w')
     f.write(table4_tex)
     f.close()	
 
@@ -246,7 +434,7 @@ def table_3():
 		
 		
 		
-	f = open('Figures&Tables/tables_latex/table3.txt','w')
+	f = open('Figures&Tables/tables_latex/table3.tex','w')
 	f.write(table3_tex)
 	f.close()	
 
@@ -323,7 +511,7 @@ def table_2():
 
 			       
 	print(table2_tex)
-	f = open('Figures&Tables/tables_latex/table2.txt','w')
+	f = open('Figures&Tables/tables_latex/table2.tex','w')
 	f.write(table2_tex)
 	f.close()	
 
@@ -376,11 +564,12 @@ def table_1():
 			
 			table1_tex += line
 	print(table1_tex)
-	f = open('Figures&Tables/tables_latex/table1.txt','w')
+	f = open('Figures&Tables/tables_latex/table1.tex','w')
 	f.write(table1_tex)
 	f.close()	
 
 
+table_5()
 table_6()
 
         
