@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title> Replication Package of How Bugs Are Born</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name"> Replication Package </h1>
+      <h2 class="project-tagline"> How Bugs Are Born: A Model to Identify How Bugs Are Introduced in Software Components </h2>
+      <h3>Gema Rodríguez-Pérez(1), Gregorio Robles(1), Alexander Serebrenik(2), Andy Zaidman(3), Daniel M. German(4), Jesús M. González-Barahona(1) </h3>
+      <h4 class="project-tagline">(1) University King Juan Carlos (Madrid, Spain), (2) Eindhoven University of Technology (Eindhoven, The Netherlands)</h4>
+      <h4 class="project-tagline">(3) Delft University of Technology (Delft, The Netherlands), (4) University of Victoria (Victoria, Canada)</h4>
+      <a href="https://github.com/Gemarodri/HowBugsAreBorn/
+" class="btn">View on GitHub</a>
+      <a href="https://github.com/Gemarodri/HowBugsAreBorn/archive/master.zip" class="btn">Download .zip</a>
+      <a href="https://github.com/Gemarodri/HowBugsAreBorn/
+/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+
+<h1> <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Abstract </h1>
+<p>To identify the origin of software bugs, many studies assume that "a bug was introduced by the lines of code that were modified to fix it'' (or variations of it). However, this assumption may not hold because the location identified as the origin of the bug, in fact, is not where the bug was first introduced, e.g., a bug introduced in an external API. The lack of empirical evidence on when bugs are introduced causes that researchers cannot understand under what circumstances this assumption is true or false. </p>
+
+<p>With the intention of better understanding the origins of bugs, this paper explores in detail how 116 bugs were introduced in two different software projects.
+From this observation, we propose a model for determining the first time that a software exhibits bugs. This model uses several assumptions for deciding whether, after a change, a bug is present in the software. Then, we operationalize the model to create curated datasets that allow the evaluation of the real performance of four algorithms when identifying the origin of bugs.
+Our results show that there were bugs introduced without changing the source code of the project in a 9\-21\ of the analyzed cases.  The F-score of the algorithms varies from 0.42 to 0.66, and the percentage of false positives was noteworthy (>50\).</p>
+      
+<h1>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Raw Data </h1>
+<h3> Nova </h3>
+<p> Nova is a project from OpenStack and it is mainly written in Python. It uses Gerrit as code review system and Launchpad as issue tracking system. The data used in this work was gathered from January 2015 to December 2015, we gathered 7563 issues that fulfills with the requirements (bugs, closed and commited). We randomly selected 60 issues of the initial 1801 issues that can be found <a href="https://github.com/Gemarodri/HowBugsAreBorn/tree/master/Data/RawData/NovaRaw.csv">here</a>.</p>
+<h3> ElasticSearch </h3>
+
+<p> ElasticSearch is written in	Java. It uses	Github Pull Request as code review system. The data used in this work was gathered from January 2013 to December 2016, we gathered 1801 issues that fulfills with the requirements (bugs, closed and commited). We randomly selected 60 issues of the initial 1801 issues that can be found <a href="https://github.com/Gemarodri/HowBugsAreBorn/tree/master/Data/RawData/ESRaw.csv">here</a>.</p>      
+<h1>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Analysis </h1>
+  <p> To ensure that the bug reports can be applied to our model, we verified that they describe real bug reports at the moment of their report and not other issues. For that, we carefully read the description and comments in the issue tracking system and code review system to analyze whether we can apply them the model.</p>
+  <p> After this analysis, we removed 3 bug reports from the initial set of 60 random bug reports in Nova and 1 bug report from the initial set of random bug reports of ElasticSearch since it was not clear that they describe bugs at the moment of the report. The data can be found <a href="https://github.com/Gemarodri/HowBugsAreBorn/tree/master/Data/AfterFiltering">here</a>.</p>
+  
+  <p> During this analysis we used some scripts that can be found <a href="https://github.com/Gemarodri/HowBugsAreBorn/tree/master/Scripts">here</a>.</p>
+
+<h1>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Curated reference datasets </h1>
+
+<p> Then, 57 bug reports from Nova and 59 form ElasticSearch were manually analyzed in order to identify the BIC, when it was possible, and how they are related to the BFC. This manual analysis was carried our keeping in mind the proposed model. After that, we have the curated reference datasets, that can be the "ground truth" for each project. This "ground truth" was build with the BFCs whose BICs certainly were manually identify, and the BFCs that does not have BICs for sure.</p>
+<p> After these exclusion steps, the datasets contain 57 bug reports from Nova and 59 from ElasticSearch linked to their respectives BFC. These datasets can be found <a href="https://github.com/Gemarodri/HowBugsAreBorn/tree/master/Data/GoldenSet">curated reference datasets</a>.</p>
+
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p> Gregorio Robles (<a href="https://twitter.com/gregoriorobles" class="user-mention">@gregoriorobles</a>), Jesús M. González Barahora (<a href="https://twitter.com/jgbarah" class="user-mention">@jgbarah</a>), and Gema Rodríguez Pérez(<a href="https://twitter.com/gerope90" class="user-mention">@gerope90</a>).</p>
+<p> Alexander Serebrenik (<a href="https://twitter.com/aserebrenik" class="user-mention">@aserebrenik</a>), Andy Zaidman (<a href="https://twitter.com/aserebrenik" class="user-mention">@azaidman</a>), and Daniel M. German (<a href="https://twitter.com/dmgerman" class="user-mention">@dmgerman</a>).</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Gemarodri/replication">Replication Package</a> is maintained by <a href="https://github.com/Gemarodri">Gemarodri</a>.</span>
+      </footer>
+
+    </section>
+
+
+  </body>
+</html>
