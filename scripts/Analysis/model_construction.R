@@ -10,7 +10,7 @@ library(e1071)
 library(Hmisc)
 
 #Read in CSV
-df <- read.csv("/home/kjbaron/Documents/NABATS/intermediate_files/final_dataset.csv", header = TRUE)
+df <- read.csv("/home/kjbaron/Documents/NABATS/intermediate_files/final_dataset2.csv", header = TRUE)
 #df <- filter(df, num_bugs > 0)
 #df <- na.omit(df) #remove rows with na values
 

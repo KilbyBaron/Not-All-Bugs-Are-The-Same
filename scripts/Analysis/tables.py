@@ -69,7 +69,7 @@ def table_9():
 
 	
 	
-
+	print("Updated file:    Figures&Tables/tables_latex/table9.tex")
 
 
 def table_8():
@@ -77,12 +77,19 @@ def table_8():
 	df = pd.read_csv(dir+"intermediate_files/final_dataset.csv")
 	
 	
-	
 	#Create dataframe with all required information
 	t8 = pd.DataFrame(columns=['project','minor','independent', 'rank'])
 	for p in projects:
 		p_df = df.loc[df['project']==p]
 		releases = set(p_df['minor'])
+		
+		
+		
+		#Temporary code to find bfs totals for paper
+		temp_n = [0,0]
+		temp_b = [0,0]
+		
+		
 		for r in releases:
 			r_df = p_df.loc[p_df['minor'] == r]
 			
@@ -90,13 +97,36 @@ def table_8():
 			rank_bfs = r_df.sort_values(by=['bfs'],ascending=False).head(20)['shortpath'].tolist()
 			rank_exp = r_df.sort_values(by=['exp'],ascending=False).head(20)['shortpath'].tolist()
 			
+			#Temporary code to find bfs totals for paper
+			
+			temp_numbugs = r_df.sort_values(by=['num_bugs'],ascending=False)['bfs'].head(20).tolist()
+			temp_n[0] += sum(temp_numbugs)
+			temp_n[1] += 1
+			
+			temp_bfs = r_df.sort_values(by=['bfs'],ascending=False)['bfs'].head(20).tolist()
+			temp_b[0] += sum(temp_bfs)
+			temp_b[1] += 1
+			
+			
+#			#Temporary code to find example for paper
+#			for x in range(10):
+#				if rank_exp[x] not in rank_numbugs:
+#					
+#					row = r_df.loc[r_df['shortpath']==rank_exp[x]].iloc[0]
+#					if row['priority']/row['num_bugs'] > 3:
+#						print("rank:",x)
+#						print(row)
+#						print("\n-------------------------\n")
+			
+			
 			bfs_inter = 20-len(set(rank_numbugs) & set(rank_bfs))
 			exp_inter = 20-len(set(rank_numbugs) & set(rank_exp))
 			
 			t8 = t8.append({'project':p, 'minor':r,'independent':'bfs','rank':bfs_inter},ignore_index=True)
 			t8 = t8.append({'project':p, 'minor':r,'independent':'exp','rank':exp_inter},ignore_index=True)
 			
-			
+	print(temp_n[0]/temp_n[1])
+	print(temp_b[0]/temp_b[1])		
 			
 	#Create tex file for table 8
 	table8_tex = ""
@@ -138,7 +168,7 @@ def table_8():
 
 
 
-
+	print("Updated file:    Figures&Tables/tables_latex/table8.tex")
 
 
 
@@ -214,6 +244,8 @@ def table_7():
 	f.close()	
 	
 	
+	print("Updated file:    Figures&Tables/tables_latex/table7.tex")
+	
 
 
 
@@ -260,6 +292,7 @@ def table_6():
 	f.write(table6_tex)
 	f.close()	
 
+	print("Updated file:    Figures&Tables/tables_latex/table6.tex")
 
 
 
@@ -301,6 +334,8 @@ def table_5():
     f = open('Figures&Tables/tables_latex/table5.tex','w')
     f.write(table5_tex)
     f.close()	
+    
+    print("Updated file:    Figures&Tables/tables_latex/table5.tex")
 
 
 
@@ -374,16 +409,11 @@ def table_4():
                 table4_tex += "\\hline"
                     
 					
-
-			       
-    print(table4_tex)
     f = open('Figures&Tables/tables_latex/table4.tex','w')
     f.write(table4_tex)
-    f.close()	
-
-	
-	
-	
+    f.close()
+    
+    print("Updated file:    Figures&Tables/tables_latex/table4.tex")
 
 
 
@@ -402,6 +432,7 @@ def table_3():
 		# Median of second half 
 		Q3 = a[median(a, mid_index + 1, n)] 
 		# IQR calculation 
+
 		return (Q3 - Q1)
 
 	# Function to give index of the median 
@@ -437,6 +468,10 @@ def table_3():
 	f = open('Figures&Tables/tables_latex/table3.tex','w')
 	f.write(table3_tex)
 	f.close()	
+	
+	
+	
+	print("Updated file:    Figures&Tables/tables_latex/table3.tex")
 
 
 
@@ -508,12 +543,11 @@ def table_2():
 						
 					table2_tex += new_line+"\n"
 					
-
-			       
-	print(table2_tex)
 	f = open('Figures&Tables/tables_latex/table2.tex','w')
 	f.write(table2_tex)
 	f.close()	
+	
+	print("Updated file:    Figures&Tables/tables_latex/table2.tex")
 
 
 
@@ -563,14 +597,24 @@ def table_1():
 					line = line.replace("n4n4",str(table1_dict[p]['links'])+"\%")
 			
 			table1_tex += line
-	print(table1_tex)
+			
+			
 	f = open('Figures&Tables/tables_latex/table1.tex','w')
 	f.write(table1_tex)
 	f.close()	
+	
+	print("Updated file:    Figures&Tables/tables_latex/table1.tex")
 
 
-table_5()
-table_6()
+##table_1()
+#table_2()
+#table_3()
+#table_4()
+#table_5()
+#table_6()
+#table_7()
+table_8()
+#table_9()
 
         
 

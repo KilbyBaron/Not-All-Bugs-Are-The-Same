@@ -47,6 +47,11 @@ bfc_df['BFC_date'] = pd.to_datetime(bfc_df['BFC_date'])
 final_df = pd.read_csv(dir+"/intermediate_files/independent.csv")
 
 
+total_rows = bfc_df.shape[0]
+total_rows_counted = 1
+
+
+
 for project_name in project_names:
 
     #Make a dict to track numbugs
@@ -61,11 +66,14 @@ for project_name in project_names:
     target_versions = sorted(targets.loc[targets['project'] == project_name]['minor'].tolist())
     
     counter = 1
+    
 
     for index, row in project_bfcs.iterrows():
         
-        print(project_name,(10-len(project_name))*" ",":  ",counter,"/",project_bfcs.shape[0], end="\r")
+        #print(project_name,(10-len(project_name))*" ",":  ",counter,"/",project_bfcs.shape[0], end="\r")
+        print("Finalizing dataset: "+str(math.floor((total_rows_counted/total_rows)*100 ))+"%", end="\r")
         counter += 1
+        total_rows_counted += 1
         
         #get numstat subset
         commit_numstats = project_numstats.loc[project_numstats['hash'] == row['BFC_id']]
@@ -78,8 +86,9 @@ for project_name in project_names:
             
                 sp = short_path(r['filepath'])
                 
-                
-                #Check if issue has already been counted for current file (for num_bugs calculation)
+                #Multiple commits can be made to the same file to address the same bug.
+                #This should still only count as one bug, therefore we will
+                #check if the issue has already been counted for current file (for num_bugs calculation)
                 newbug = 0
                 if row['minor'] in numbug_dict:
                     if sp in numbug_dict[row['minor']]:
@@ -92,24 +101,25 @@ for project_name in project_names:
                 else:
                     newbug = 1
                     numbug_dict[row['minor']] = {sp:[row['bug_id']]}
-                
+                    
+                    
+
                 
                 final_row = final_df.loc[(final_df['shortpath'] == sp) & (final_df['minor'] == row['minor'])]
                 final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'num_post'] = final_row['num_post'] + 1
-                final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'exp'] = final_row['exp'] + row['author_exp']
-                final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'priority'] = final_row['priority'] + row['priority']
+                final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'exp'] = final_row['exp'] + row['author_exp']*newbug #Multiply by newbug because exp is already an average of all devs who commited a fix for that bug
+                final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'priority'] = final_row['priority'] + row['priority']*newbug #Multiply by newbug because we dont want to double the priority if the bug has 2 commits
                 final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'bfs'] = final_row['bfs'] + r['la'] + r['ld']
                 final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'num_bugs'] = final_row['num_bugs'] + newbug
-                final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'release_id'] = target_versions.index(int(row['minor']))
+                final_df.loc[(final_df['project'] == project_name) & (final_df['shortpath'] == sp) & (final_df['minor'] == row['minor']),'release_id'] = target_versions.index(int(row['minor']))                                  
                 
                     
-                
-                
-    print("")
+               
+#    print("")
             
        
 
-final_df.to_csv(dir+"/intermediate_files/final_dataset.csv", index=False)
+final_df.to_csv(dir+"/intermediate_files/final_dataset2.csv", index=False)
 
 
 

@@ -90,6 +90,7 @@ targets = pd.DataFrame(columns=['project','release','major','minor', 'pre', 'pos
 
 #count the number of commits for each release
 df = count_pre_post()
+print(sum(df['post'].tolist()))
 df['minor'] = df['minor'].astype(int)
 df['major'] = df['major'].astype(int)
 
