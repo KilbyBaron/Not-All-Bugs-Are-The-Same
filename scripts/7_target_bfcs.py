@@ -44,6 +44,7 @@ os.chdir(dir)
 projects = ["accumulo","bookkeeper","camel","cassandra","cxf","derby","felix","hive","openjpa","pig","wicket"]
 
 target_versions = get_target_versions()
+
 for p in target_versions:
     print(p)
     for v in target_versions[p]:

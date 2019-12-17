@@ -8,7 +8,7 @@
 %\bfseries Project	& \bfseries Description	& \bfseries \# Collected	& \bfseries \# Commits	& \bfseries \# Releases	 \\ 
 \bfseries Project	& \bfseries Description	& \bfseries \# 				& \bfseries \# 			& \bfseries \#          &                   \\ 
 \bfseries 			&                   	& \bfseries Bugs			& \bfseries Commits		& \bfseries Releases	& \bfseries Link \% \\ 
-                    &						& \bfseries Collected		& \bfseries Collected	& \bfseries	(Jira)		&                 \\ \hline \hline
+                    &						& \bfseries Collected		& \bfseries Collected	& \bfseries			&                 \\ \hline \hline
 Accumulo	&	\pbox{20cm}{Distributed Storage System}	    &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
 Bookkeeper	&	\pbox{20cm}{Write-ahead logging service}	&	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
 Camel	&	\pbox{20cm}{Integration Framework}	            &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline

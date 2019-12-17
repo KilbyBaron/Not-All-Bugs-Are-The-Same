@@ -1,15 +1,15 @@
-\begin{table}[hb!]% bt					
-\centering							
-\caption{Average $R^2$ values in each project when different dependent variables are used }%\fix{Average variance explained in each project when different dependent variables are used}}							
-\label{tab:summary-variability-explained-mean}							
-\resizebox{.85\columnwidth}{!}{							
-\begin{tabular}{l||r r r r| r|r} \hline							
-Project		&\multicolumn{3}{c|}{$\Yissues$} &\multicolumn{1}{c|}{$\Yeffort$} & \multicolumn{1}{c|}{$\Yexp$} & \multicolumn{1}{c}{$Y_{Priority}$} \\ \hline \hline	
+\begin{table}[htb!]				
+\centering				
+\caption{ Relative Standard Deviation of Bug-Fix Siza and Developer Experience at bug level }				
+\label{tab:bug-fix-variabilities}				
+\resizebox{0.6\columnwidth}{!}{				
+\begin{tabular}{ l| | c  r  c | c  r  c | c  r  c } \hline				
+\bfseries Project 	& \multicolumn{3}{c|}{\bfseries Bug-fix }	& \multicolumn{3}{c|}{\bfseries Dev. }  & \multicolumn{3}{c}{\bfseries Bug }\\ 		
+\bfseries  		& \multicolumn{3}{c|}{\bfseries Size} & \multicolumn{3}{c|}{\bfseries Experience}       & \multicolumn{3}{c}{\bfseries Cost}\\ \hline		
 
 insert_data
 
 
-\end{tabular}							
-}							
-\vspace{1.5em}							
-\end{table}	
+\end{tabular}				
+}				
+\end{table}

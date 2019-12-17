@@ -14,6 +14,8 @@ library(Hmisc)
 df <- read.csv("/home/kjbaron/Documents/NABATS/intermediate_files/final_dataset.csv", header = TRUE)
 df <- filter(df, num_bugs > 0)
 
+#NOTE CHANGED CORRELATION ANALYSIS TO NO LONGER USE AVERAGE
+
 #Since bfs, priority, and exp are all sumations, I calculate the averages before calculating the correlation
 df$avg_bfs <- with(df, ifelse(num_bugs==0, 0, bfs/num_bugs))
 df$avg_exp <- with(df, ifelse(num_bugs==0, 0, exp/num_bugs))
@@ -43,9 +45,9 @@ for (current_project in c("accumulo","bookkeeper","camel","cassandra","cxf","der
     r_df <- filter(p_df, minor == r)
     #r_df[c("avg_exp","avg_bfs","num_bugs","avg_pri")] <- lapply(r_df[c("avg_exp","avg_bfs","num_bugs","avg_pri")], function(x) c(scale(x, center= min(x), scale=diff(range(x)))))
     
-    bfs_corr <- cor.test(r_df$avg_bfs, r_df$num_bugs,method = "pearson")$estimate
-    exp_corr <- cor.test(r_df$avg_exp, r_df$num_bugs,method = "pearson")$estimate
-    pri_corr <- cor.test(r_df$avg_pri, r_df$num_bugs,method = "pearson")$estimate
+    bfs_corr <- cor.test(r_df$bfs, r_df$num_bugs,method = "pearson")$estimate
+    exp_corr <- cor.test(r_df$exp, r_df$num_bugs,method = "pearson")$estimate
+    pri_corr <- cor.test(r_df$pri, r_df$num_bugs,method = "pearson")$estimate
     
     library("ggpubr")
     print(current_project)

@@ -94,11 +94,14 @@ print(sum(df['post'].tolist()))
 df['minor'] = df['minor'].astype(int)
 df['major'] = df['major'].astype(int)
 
+print(df.loc[df['project']=='felix'])
+
+
 #Import version data to find exact release numbers
 version_data = pd.read_csv(dir+"/intermediate_files/release_dates/version_data.csv")
 
 #Find the 3 consecutive releases in each project with the most pre-release bfcs
-projects = ["accumulo","bookkeeper","camel","cassandra","cxf","derby","hive","openjpa","pig","wicket"]
+projects = ["accumulo","bookkeeper","camel","cassandra","cxf","derby","hive","openjpa","pig","wicket"] #Felix intentionally omitted, added seperately afterward
 for project in projects:
     
     #target will hold the major/minor of the first target release
@@ -136,6 +139,12 @@ for project in projects:
             p_row = p_df.loc[(p_df['major'] == target['major']) & (p_df['minor'] == target['minor']+x)].iloc[0]
             v = version_data.loc[(version_data['major'] == target['major']) & (version_data["minor"] == target['minor']+x)].iloc[0]['release']                     
             targets = targets.append({'project':project,'release':v,'major':target['major'],'minor':target['minor']+x, 'pre':p_row['pre'], 'post':p_row['post']},ignore_index=True)
+
+
+
+#Set felix afterward since we had to decide the releases manually
+targets = targets.append(df.loc[(df['project']=='felix')&(df['minor']!=2)])
+
 
 targets.to_csv(dir+"/intermediate_files/target_releases.csv", index=False)
 
