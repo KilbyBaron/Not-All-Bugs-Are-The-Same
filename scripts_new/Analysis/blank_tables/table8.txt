@@ -1,0 +1,16 @@
+\begin{table}[!h]
+\centering
+\caption{Sample - Ranking of files}
+\label{tab:ranking-example}
+\resizebox{1\columnwidth}{!}{
+\begin{tabular}{| c |c|| c | c| c | c| c | c|}\hline
+\multicolumn{2}{|c||}{$\RANKissues$} & \multicolumn{2}{c|}{$\RANKexp$} & \multicolumn{2}{c|}{$\RANKeffort$} & \multicolumn{2}{c|}{$\RANKpriority$} \\ \hline \hline
+Files	&	$\Yissues$	&	Files	&	$\Yexp$ &	Files	&	$\Yeffort$ &	Files	&	$\Ypriority$ \\ \hline 
+
+insert_data
+
+
+\end{tabular}
+}
+\vspace{1.0em}
+\end{table}
